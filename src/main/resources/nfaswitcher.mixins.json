@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.nfaswitcher.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MinecraftClientMixin",
+		"TitleScreenMixin",
+		"MultiplayerScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

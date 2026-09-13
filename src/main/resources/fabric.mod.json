@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "nfaswitcher",
+	"version": "${version}",
+	"name": "NFA Switcher",
+	"description": "Client-side account switcher for Minecraft 1.21.11. Cookie alts, MSA refresh tokens, Microsoft device-code login, and unlimited offline accounts.",
+	"authors": [
+		"NFA Switcher"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.nfaswitcher.NfaSwitcherClient"
+		]
+	},
+	"mixins": [
+		"nfaswitcher.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
